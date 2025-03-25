@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang={"en"}>
       <body>
         <Providers>
-          <Box bgGradient={"linear(to-tr, blue.300, blue.600)"} p={8}>
+          <Box bgGradient={"linear(to-tr, blue.300, blue.600)"} p={[4, 8]}>
             <Box bg={"white"} minH={"100vh"} borderRadius={"1rem"} pb={8}>
               <TopNavigation />
               {children}
